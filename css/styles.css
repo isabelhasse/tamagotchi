@@ -1,0 +1,9 @@
+#hunger, #happiness {
+  display:inline-block;
+  color: red;
+  font-family: "chango";
+}
+
+p {
+  font-size: 1.5em;
+}
