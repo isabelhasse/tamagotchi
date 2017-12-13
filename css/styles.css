@@ -4,6 +4,18 @@
   font-family: "chango";
 }
 
-p {
-  font-size: 1.5em;
+#main-screen {
+  display: none;
+}
+
+ #start {
+   text-align: center;
+ }
+
+ #main-screen p {
+   font-size: 1.5em;
+ }
+
+#start p {
+  font-size: 1.2em;
 }

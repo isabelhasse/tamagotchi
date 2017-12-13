@@ -10,12 +10,31 @@
   </head>
   <body>
     <div class="container">
-      <h1 id="pets-name"></h1>
-      <p>Hunger: <span id="hunger"></span></p>
-      <button type="click" id="feed">Feed</button>
-      <br>
-      <p>Happiness: <span id="happiness"></span></p>
-      <button type="click" id="happy">Play</button>
+      <div id="start">
+        <h2>Meet your new pet!</h2>
+        <div class="new-pet">
+          <img id="pet-img" src="img/placeholder.jpeg" alt="">
+          <p id="pet-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+
+        <form id="name-form">
+          <div class="form-group">
+            <label for="name">What would you like to name it?</label>
+            <input type="text" id="name">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+
+
+      <div id="main-screen">
+        <h1 id="pets-name"></h1>
+        <p>Hunger: <span id="hunger"></span></p>
+        <button type="click" id="feed">Feed</button>
+        <br>
+        <p>Happiness: <span id="happiness"></span></p>
+        <button type="click" id="happy">Play</button>
+      </div>
     </div>
   </body>
 </html>
