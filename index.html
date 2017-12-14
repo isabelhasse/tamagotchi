@@ -6,34 +6,63 @@
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Chango" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
     <title></title>
   </head>
   <body>
     <div class="container">
+
       <div id="start">
         <h2>Meet your new pet!</h2>
         <div class="new-pet">
-          <img id="pet-img" src="img/placeholder.jpeg" alt="">
-          <p id="pet-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <div class="pet-img"></div>
+          <p id="pet-description"></p>
         </div>
 
         <form id="name-form">
           <div class="form-group">
-            <label for="name">What would you like to name it?</label>
+            <label for="name">What would you like to name your pet?</label>
             <input type="text" id="name">
           </div>
           <button type="submit" class="btn btn-default">Submit</button>
         </form>
       </div>
 
-
       <div id="main-screen">
-        <h1 id="pets-name"></h1>
-        <p>Hunger: <span id="hunger"></span></p>
-        <button type="click" id="feed">Feed</button>
-        <br>
-        <p>Happiness: <span id="happiness"></span></p>
-        <button type="click" id="happy">Play</button>
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div align="center">
+                <img src="img/logo.png" class="logo">
+              </div>
+            </div>
+            <div class="row">
+              <div class ="screen">
+                <div class="pet-info">
+                  <h1 id="pets-name"></h1>
+                  <div class="pet-img">
+                  </div>
+
+                  <p>Hunger: <span id="hunger"></span></p>
+                  <button type="click" class="btn btn-default" id="banana">Banana 🍌</button>
+                  <button type="click" class="btn btn-default" id="cake">Cake 🍰</button>
+                  <button type="click" class="btn btn-default" id="taco">Taco 🌮</button>
+                  <br>
+                  <br>
+                  <p>Happiness: <span id="happiness"></span></p>
+                  <button type="click" class="btn btn-default" id="hopscotch">Hopscotch</button>
+                  <button type="click" class="btn btn-default" id="yo-yo">Yo yo</button>
+                  <button type="click" class="btn btn-default" id="soccer">Soccer ball</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+          </div>
+        </div>
+
       </div>
     </div>
   </body>

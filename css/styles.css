@@ -2,6 +2,8 @@
   display:inline-block;
   color: red;
   font-family: "chango";
+  border: 2px solid grey;
+  width: 95px;
 }
 
 #main-screen {
@@ -14,8 +16,52 @@
 
  #main-screen p {
    font-size: 1.5em;
+   background-color: black;
+   color: white;
  }
+
+#main-screen h1 {
+  background-color: black;
+  color: white;
+  text-align: center
+}
 
 #start p {
   font-size: 1.2em;
+}
+
+body {
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  origin background-size: cover;
+  background-size: cover;
+  font-family: 'Signika', sans-serif;
+}
+
+.pet-info {
+  margin: auto;
+  padding-top: 8em;
+  width: 400px;
+}
+
+.screen {
+  background: url(../img/screen.gif) no-repeat center center fixed;
+  origin background-size: cover;
+  background-size: cover;
+  height: 60em;
+  width: 100%;
+  margin-top: 3em;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: inset 0px -11px 50px 13px rgba(255,255,255,1);
+}
+
+.logo {
+  margin: auto;
+  width: 59%;
+  margin-top: 5em;
+}
+
+.img-big {
+  width: 300px;
+  margin: auto;
+
 }
